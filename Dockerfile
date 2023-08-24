@@ -2,7 +2,7 @@
 
 # Install dependencies
 FROM python:3
-MAINTAINER Kevin Riedl (WSDT) <kevin.riedl.privat@gmail.com>
+MAINTAINER prathima (WSDT) <t.prathima588@gmail.com>
 
 RUN python -m pip install --upgrade pip setuptools wheel && apt-get update && \
 	apt-get install -y build-essential swig git libpulse-dev libasound2-dev espeak && \
